@@ -1,0 +1,113 @@
+.contact-us,
+.contact-us-content-left,
+.contact-us-content-right {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.contact-us-content-right {
+  justify-self: flex-start;
+  align-self: flex-start;
+}
+.contact-us {
+  gap: 24px;
+}
+.contact-us-title {
+  font-family: 'Cormorant', sans-serif;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+  text-align: center;
+  position: relative;
+  margin-bottom: 24px;
+}
+#icon-decoration {
+  display: block;
+  margin: 0 auto 24px auto;
+}
+.contact-us-text {
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 32px;
+}
+.contact-us-address-list-item {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 16px;
+  font-style: normal;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+#contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+#contact-form > input,
+#contact-form > textarea {
+  width: 335px;
+  border: 2px solid #000;
+  border-radius: 6px;
+  margin-bottom: 24px;
+  font-weight: 400;
+}
+#contact-form > input {
+  height: 40px;
+  padding: 8px 12px;
+}
+#contact-form > textarea {
+  padding: 12px;
+}
+.form-label {
+  margin-bottom: 8px;
+}
+.btn-submit {
+  align-self: center;
+  width: 335px;
+  height: 44px;
+  background-color: #dcc110;
+  border: 1px solid #dcc110;
+  border-radius: 6px;
+  font-weight: 500;
+}
+@media only screen and (min-width: 768px) {
+  .contact-us-address {
+    align-self: flex-start;
+    justify-self: flex-start;
+  }
+  .btn-submit {
+    align-self: flex-start;
+  }
+  #contact-form > input,
+  #contact-form > textarea {
+    width: 704px;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .contact-us {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 24px;
+    max-width: 1312px;
+    padding: 0;
+  }
+  .contact-us-content-left {
+    width: 644px;
+    align-items: flex-start;
+  }
+  #icon-decoration {
+    margin: 0;
+    margin-bottom: 24px;
+  }
+  .contact-us-text {
+    text-align: left;
+  }
+  #contact-form > input,
+  #contact-form > textarea {
+    width: 644px;
+  }
+}
