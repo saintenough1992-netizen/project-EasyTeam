@@ -1,3 +1,6 @@
+.header {
+  font-family: 'Mulish', sans-serif;
+}
 .header-wrapper {
   display: flex;
   justify-content: space-between;
@@ -65,9 +68,7 @@
 }
 .header-session-link {
   display: none;
-
   font-weight: 500;
-
   border: 1px solid #dcc110;
   border-radius: 6px;
   padding-block: 8px;
@@ -104,20 +105,18 @@
   align-items: center;
 }
 .mobile-menu-open .header-nav {
-  display: block;
   width: 100%;
-}
-.mobile-menu-open .header-nav {
   display: flex;
   justify-content: space-between;
   position: absolute;
   top: 64px;
   left: 0;
   width: 100%;
+  margin-top: 16px;
 }
 .mobile-menu-open .header-nav-list {
   flex-direction: column;
-  row-gap: 12px;
+  row-gap: 16px;
   width: 100%;
 }
 .mobile-menu-open .header-session-link {
@@ -128,6 +127,7 @@
 }
 .mobile-menu-open .header-session-link {
   text-align: center;
+  margin-top: 4px;
 }
 
 @media only screen and (min-width: 768px) {

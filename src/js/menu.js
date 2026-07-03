@@ -9,12 +9,13 @@ const toggleMenu = () => {
   headerMenuButton.ariaLabel = isMobileMenuOpen
     ? 'Close navigation menu'
     : 'Open navigation menu';
-  const useHref = headerMenuButtonIconUse.getAttribute('href');
-  const [basePath, id] = useHref.split('#');
+  const useElementHref = headerMenuButtonIconUse.getAttribute('href');
+  const [basePath] = useElementHref.split('#');
   headerMenuButtonIconUse.setAttribute(
     'href',
     [basePath, isMobileMenuOpen ? 'icon-close' : 'icon-burger'].join('#')
   );
+  document.body.style.overflow = isMobileMenuOpen ? 'hidden' : '';
 };
 
 headerMenuButton.addEventListener('click', () => {
