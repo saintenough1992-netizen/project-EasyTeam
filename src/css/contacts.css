@@ -6,6 +6,9 @@
   justify-content: flex-start;
   flex-direction: column;
 }
+.contact-us {
+  padding: 0 20px;
+}
 .contact-us-content-right {
   justify-self: flex-start;
   align-self: flex-start;
@@ -164,6 +167,9 @@
   margin: 0;
 }
 @media only screen and (min-width: 768px) {
+  .contact-us {
+    padding: 0 32px;
+  }
   #icon-decoration {
     margin: 0;
     margin-bottom: 24px;
@@ -192,8 +198,7 @@
     justify-content: space-between;
     align-items: flex-start;
     gap: 24px;
-    max-width: 1312px;
-    padding: 0;
+    padding: 0 64px;
   }
   .contact-us-title {
     font-size: 48px;
