@@ -9,3 +9,4 @@ import '/js/render-photos.js';
 import '/js/loader.js';
 import '/js/form-message.js';
 import '/js/feedbacks.js';
+import '/js/success-modal.js';
