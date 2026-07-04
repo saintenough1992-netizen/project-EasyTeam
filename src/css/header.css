@@ -127,6 +127,7 @@
   left: 0;
   width: 100%;
   margin-top: 16px;
+  background-color: #fbf9f1;
 }
 .mobile-menu-open .header-nav-list {
   flex-direction: column;
