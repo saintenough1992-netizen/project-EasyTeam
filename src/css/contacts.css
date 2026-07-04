@@ -48,6 +48,8 @@
   color: inherit;
   text-decoration: underline;
   text-underline-offset: 3px;
+  padding: 0 6px;
+  border-radius: 6px;
 }
 .contact-us-address-list-item svg,
 .address-info {
@@ -86,7 +88,7 @@
 }
 #contact-form > input::placeholder,
 #contact-form > textarea::placeholder {
-  color: #808080; /* або твій початковий колір */
+  color: #808080;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
