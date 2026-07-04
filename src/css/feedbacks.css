@@ -102,6 +102,7 @@
   gap: 24px;
   flex-wrap: nowrap;
   width: 100%;
+  overflow: hidden;
 }
 .swiper-pagination-container {
   position: relative;
