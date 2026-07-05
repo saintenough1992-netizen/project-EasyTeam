@@ -86,7 +86,7 @@
 
 .footer-col a:hover,
 .footer-col a:focus-visible {
-  background-color: #e0c15a;
+  background-color: rgba(0, 0, 0, 0.15);
 }
 
 .footer-menu-list {
