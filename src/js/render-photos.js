@@ -32,22 +32,26 @@ buttonElement.addEventListener('click', handleShowMoreClick);
 
 async function handleShowMoreClick() {
   countShowMoreClicks++;
+  const selectedCategoryID =
+    selectedCategory.id === 'all-photos' ? undefined : selectedCategory.id;
   try {
     showLoader(loaderWrapperElement);
     const data = await getWeddingPhotos(
-      selectedCategory.id,
+      selectedCategoryID,
       LIMIT_IMAGES_PER_SHOW_MORE + countShowMoreClicks,
       LIMIT_IMAGES_PER_SHOW_MORE
     );
+
     countShowedImages += data.weddingPhotos.length;
     toggleShowMoreButton();
     const list = data.weddingPhotos.map(
       img => `<li><img src="${img.img}" alt="${img.title}"/></li>`
     );
     imagesList.insertAdjacentHTML('beforeend', list.join(''));
-  } catch {
+  } catch (error) {
+    console.log(error);
     iziToast.error({
-      message: 'Something went wrong with request',
+      message: 'Something went wrong with getWeddingPhotos request',
       position: 'bottomRight',
     });
   } finally {
