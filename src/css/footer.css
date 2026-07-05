@@ -1,0 +1,167 @@
+/* ===== Footer wrapper ===== */
+.footer {
+  padding-top: 16px;
+  padding-bottom: 40px;
+  background: #fbf9f1;
+}
+
+/* ===== Footer card ===== */
+.footer-card {
+  background-color: #faf7e6;
+  border: 2px solid #000;
+  border-radius: 24px;
+  padding: 32px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 24px;
+}
+
+/* ===== Left column: logo + copyright ===== */
+.footer-brand {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+.footer-logo {
+  width: 206px;
+  max-width: 100%;
+  height: auto;
+}
+
+.footer-copy {
+  font-size: 14px;
+  line-height: 150%;
+  font-weight: 400;
+  color: #000;
+}
+
+/* ===== Right columns wrapper ===== */
+.footer-links-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  width: 100%;
+}
+
+.footer-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-col-title {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 150%;
+  color: #000;
+}
+
+/* Menu title -> first item gap */
+.footer-col--menu .footer-col-title {
+  margin-bottom: 16px;
+}
+
+/* Follow Me title -> first item gap */
+.footer-col--social .footer-col-title {
+  margin-bottom: 25.5px;
+}
+
+.footer-col a {
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+  color: #000;
+  text-decoration: none;
+  padding: 4px 8px;
+  margin: -4px -8px;
+  border-radius: 6px;
+  transition: background-color 250ms ease-in-out;
+}
+
+.footer-col a:hover,
+.footer-col a:focus-visible {
+  background-color: rgba(0, 0, 0, 0.15);
+}
+
+.footer-menu-list {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.footer-social-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.footer-social-list a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+
+.footer-social-list svg {
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+}
+
+/* ============ TABLET (min-width: 768px) ============ */
+@media only screen and (min-width: 768px) {
+  .footer {
+    padding-top: 24px;
+    padding-bottom: 48px;
+  }
+  .footer-card {
+    padding: 32px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    text-align: left;
+    gap: 24px;
+  }
+  .footer-brand {
+    align-items: flex-start;
+    gap: 16px;
+  }
+  .footer-logo {
+    width: 128px;
+  }
+  .footer-links-wrap {
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 48px;
+    width: auto;
+  }
+  .footer-col {
+    align-items: flex-start;
+  }
+  .footer-social-list a {
+    justify-content: flex-start;
+  }
+}
+
+/* ============ DESKTOP (min-width: 1440px) ============ */
+@media only screen and (min-width: 1440px) {
+  .footer {
+    padding-bottom: 64px;
+  }
+  .footer-card {
+    padding: 48px;
+    gap: 32px;
+  }
+  .footer-logo {
+    width: 166px;
+  }
+  .footer-links-wrap {
+    gap: 96px;
+  }
+}
