@@ -157,6 +157,7 @@
 
 .feedbacks-btn.feedbacks-btn--disabled,
 .feedbacks-btn.swiper-button-disabled {
+  border-color: #e5e5e5;
   color: #e5e5e5; /* Disabled — светло-серый фон */
   cursor: not-allowed;
   pointer-events: none;
