@@ -209,6 +209,9 @@
   .contact-us-content-left {
     width: 644px;
   }
+  .contact-us-content-right {
+    width: 644px;
+  }
   #contact-form > input,
   #contact-form > textarea {
     width: 644px;
