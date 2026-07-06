@@ -1,18 +1,16 @@
+
 # The Wedding Photographer Landing page
 
-A landing page project for wedding photographer, designed and created to be a
-lead generation tool as well as advertisement tool. Includes examples of
-previous work (portfolio), feedback from customers and ability to get
-information from the lead in order to contact them.
+A landing page project for wedding photographer, designed and created to be a lead generation tool as well as advertisement tool. Includes examples of previous work (portfolio), feedback from customers and ability to get information from the lead in order to contact them.
+
 
 ## Features
 
 - Adaptive layout
 - Real-time DB requests
 - Contact form
-- Custom validation rules
 - Interactive feedbacks and portfolio
-- Embedded modals
+
 
 ## Tech Stack
 
@@ -22,12 +20,21 @@ information from the lead in order to contact them.
 
 **Bundler:** Vite
 
+
+## Screenshots
+
+![App Screenshot](https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExOG94M3lrY3dicGhwMGhtMnliazUxcjQzengzamJqN2dueGlnM2hxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/v1lATom3OrV9sLQfDk/giphy.gif)
+![App Screenshot](https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExMHJpYnZ0cmM2bm4yZW00Z3A1ZGNiaDFtYWh5aGoweGxubHhkOWduNiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/8AW2eXQ1LmjGNi95SL/giphy.gif)
+![App Screenshot](https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExa2ljZDB2MHQza2cxazltdTE0bjg5NTFwbXFveDRqb2sxcXNwMDF3ZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/YFApirJ3ynGNfpbuOr/giphy.gif)
+![App Screenshot](https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExcXBsNGV5dzl1ZjZyOWluNmxteXh1MWt6ejA0NGFvdmRzcjZicDlrbCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/JqODMi4UMoMGWiVb3K/giphy.gif)
+
+
 ## Run Locally
 
 Clone the project
 
 ```bash
-  git clone https://github.com/saintenough1992-netizen/project-EasyTeam.git
+  git clone https://link-to-project
 ```
 
 Go to the project directory
@@ -47,6 +54,7 @@ Start the server
 ```bash
   npm run dev
 ```
+
 
 ## Authors
 
@@ -72,3 +80,4 @@ Start the server
 ## Feedback
 
 If you have any feedback, please reach out to us at saintenough1992@gmail.com
+
