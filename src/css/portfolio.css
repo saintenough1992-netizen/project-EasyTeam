@@ -89,7 +89,7 @@ li.selected-category {
   border-radius: 6px;
   padding: 10px 112.5px;
   background: #dcc110;
-
+  transition: background-color 250ms ease;
   font-weight: 500;
 }
 

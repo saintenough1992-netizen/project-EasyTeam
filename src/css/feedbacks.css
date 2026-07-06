@@ -142,7 +142,7 @@
   cursor: pointer;
   display: flex;
   color: #fff; /* Normal — белый фон квадрата */
-  transition: color 250ms ease;
+  transition: background-color 250ms ease;
   position: relative;
 }
 
